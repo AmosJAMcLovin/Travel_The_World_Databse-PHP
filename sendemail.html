@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Travel the World - Send Email to Everyone</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <img src="sea.jpeg" id="sea" alt="The sea front" />
+  <h1>Travel the World Blog - Send Email</h1>
+    
+     <p><strong>Private: </strong>For lovers of travel only!<br />
+     Write and send an email to mailing list members.</p>
+
+  <form method="POST" action="sendemail.php">
+    <label for="subject">Subject of email:</label>
+	<input id="subject" name="subject" type="text" />
+    <label for="travelEmail">Body of email:</label>
+    <textarea id="travelEmail" name="travelEmail" rows="8" cols="40"></textarea>
+    <input type="submit" name="Submit" value="Submit" />
+  </form>
+  <h3>Created by: Amos Johnson!</h3>
+</body>
+</html>

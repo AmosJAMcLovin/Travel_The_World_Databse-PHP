@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Travel the World Blog - Add Email</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <img src="sea.jpeg" id="sea" alt="The sea front" />
+  <h1>Travel the World Blog - Add Email</h1>
+    <p>Enter your first name, last name, and email to be
+	added to the <b>Travel the World</b> mailing list</p>
+  <form method="POST" action="addemail.php">
+	<label for="first_name">First name:</label>
+    <input type="text" id="first_name" name="first_name" />
+	<label for="last_name">Last name:</label>
+	<input type="text" id="last_name" name="last_name" />
+	<label for="email">Email address:</label>
+	<input type="text" id="email" name="email" />
+    <input type="submit" name="submit" value="Submit" />
+  </form>
+</body>
+</html>
